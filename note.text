@@ -1,0 +1,9 @@
+"for of" is not used for objects bcz they are not iterables
+instead "for in" is used(only keys displayed,see 1.png)
+
+or use different formats like:
+1. Object.keys(objectName);//gives list of keys of object named 'objectName'
+2. Object.values(objectName);//gives list of values of object named 'objectName'
+3. Object.entries(objectName);//gives list of pair of {keys,values} of object named 'objectName'
+
+see 1.png,2.png,3.png
